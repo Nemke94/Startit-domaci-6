@@ -1,0 +1,186 @@
+/* content 
+1.general
+2.header 
+3.pages
+4.footer
+5.o nama
+6.kontakt*/
+
+/* 1.general */
+
+* {
+	box-sizing: border-box;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+	background-color: #eaffef;
+}
+
+h1 {
+	color: #E45E9D;
+	font-size: 40px;
+	text-align: center;
+	margin: 0;
+}
+
+
+a {
+	text-decoration: none;
+	color: #E45E9D;
+	font-size: 40px;
+}
+
+.container {
+	max-width: 1300px;
+	margin: 0 auto;
+}
+
+/* 2.header */
+
+header {
+	background-image: url("roses1.jpg");
+	background-size: cover;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+
+li:nth-child(2) {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.logo {
+	float: left;
+	position: relative;
+	margin-bottom: 0px;
+}
+
+.selected {
+	text-decoration: underline;
+}
+
+.wrapper {
+	overflow: hidden;
+}
+
+span {
+	font-size: 45px;
+	font-family: 'Clicker Script', cursive;
+}
+
+i {
+	font-family: 'Clicker Script', cursive;
+	font-size: 90px;
+}
+
+/* 3.pages */
+
+.container {
+	padding: 50px 35px;
+	display: inline-block;
+}
+
+.box {
+	border: 1px solid;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: #fff;
+	display: inline-block;
+	width: 47%;
+}
+
+#cover1 {
+	background-image: url("asortimancveca.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	border-bottom: 1px solid;
+}
+
+#cover2 {
+	background-image: url("vencanjairodjendani.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	border-bottom: 1px solid;
+}
+
+#cover3 {
+	background-image: url("pokloni.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	border-bottom: 1px solid;
+}
+
+#cover4 {
+	background-image: url("saksijskocvece.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	border-bottom: 1px solid;
+}
+
+/* 4.footer */
+
+footer {
+	display: 
+}
+
+.copy {
+	font-family: 'Acme', sans-serif;
+	text-align: center;
+}
+.social {
+	font-size: 25px;
+	text-align: center;
+}
+
+.fa-facebook-square {
+	color: #0000FF;
+}
+
+.fa-instagram {
+	color: #000000;
+}
+
+/* 5.o nama */
+
+img {
+	float: left;
+	max-width: 500px;
+	height: 300px;
+}
+
+.text {
+	font-size: 25px;
+	text-align: justify;
+}
+
+/* 6.kontakt */
+
+.location {
+	font-size: 25px;
+}
+
+.fa-map-marker {
+	color: #ff0000;
+}
+
+.fa-phone-square {
+	color: #00FF00;
+}
